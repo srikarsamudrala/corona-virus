@@ -4,9 +4,6 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:coronavirus/theme.dart' as Theme;
 import 'package:coronavirus/bubble_indication_pointer.dart';
-import 'package:coronavirus/CountryReportPage.dart';
-import 'package:coronavirus/main.dart';
-import 'package:coronavirus/homePage.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
@@ -339,7 +336,7 @@ class _LoginPageState extends State<LoginPage>
                       debugPrint("Login button pressed");
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
-                        return HomePage();
+                        return;
                       }));
                     }),
               ),
